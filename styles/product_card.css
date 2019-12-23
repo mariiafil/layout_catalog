@@ -52,16 +52,16 @@
   margin: 0; }
 
 .product--reviews {
-  margin: 0 0 21px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
-          align-items: center; }
+          align-items: center;
+  margin: 0 0 21px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
 
 .review--link {
   color: #000;
@@ -73,25 +73,25 @@
   text-align: right; }
 
 .product--price {
-  margin: 0 0 20px;
-  font-size: 11px;
-  line-height: 13px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
-          align-items: center; }
+          align-items: center;
+  margin: 0 0 20px;
+  font-size: 11px;
+  line-height: 13px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
 
 .price-number {
   font-weight: bold;
   font-size: 16px;
   line-height: 19px; }
 
-.button--buy {
+.button {
   width: 170px;
   height: 40px;
   padding: 11px 57px;
@@ -110,7 +110,7 @@
   background-color: #00acdc;
   border-radius: 5px; }
 
-.button--buy:hover {
+.button:hover {
   background-color: #fff;
   border: #00acdc solid 1px;
   color: #00acdc; }
