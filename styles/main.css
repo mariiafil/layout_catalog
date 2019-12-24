@@ -13,10 +13,11 @@
   -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
           box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); }
 
-.logo {
+.logo--link {
+  display: block;
   height: 40px; }
 
-.nav-list {
+.nav--list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -30,7 +31,7 @@
       -ms-flex-pack: end;
           justify-content: flex-end; }
 
-.nav-link {
+.nav--link {
   padding: 23px 0;
   display: block;
   font-family: "Roboto", sans-serif;
@@ -55,10 +56,10 @@
     position: absolute;
     bottom: 0; }
 
-.nav-item:not(:last-child) {
+.nav--item:not(:last-child) {
   margin-right: 20px; }
 
-.nav-item a:hover,
+.nav--item a:hover,
 :focus {
   color: #00acdc; }
 
