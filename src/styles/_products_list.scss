@@ -4,16 +4,14 @@
   @include flex-horizontal-centered;
 
   &__list {
-    @include flex-horizontal-centered;  
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 200px);
+    grid-row-gap: 50px;
+    grid-column-gap: 48px;
     max-width: 1000px;
   }
 
-  &__item {
-    margin-right: 48px;
-    margin-bottom: 50px;
-    &:nth-child(4n) {
-      margin-right: 0;
-    }
+  &__item:nth-child(4n) {
+    margin-right: 0;
   }
 }
