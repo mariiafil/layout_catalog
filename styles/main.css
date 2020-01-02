@@ -176,20 +176,13 @@
       -ms-flex-pack: center;
           justify-content: center; }
   .product__list {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 200px);
+    grid-row-gap: 50px;
+    grid-column-gap: 48px;
     max-width: 1000px; }
-  .product__item {
-    margin-right: 48px;
-    margin-bottom: 50px; }
-    .product__item:nth-child(4n) {
-      margin-right: 0; }
+  .product__item:nth-child(4n) {
+    margin-right: 0; }
 
 body {
   margin: 0;
