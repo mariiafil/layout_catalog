@@ -12,7 +12,7 @@
   margin-bottom: 50px;
   -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
           box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); }
-  .header__logo_link {
+  .header__logo {
     display: block;
     height: 40px; }
 
@@ -130,7 +130,7 @@
       -ms-flex-pack: justify;
           justify-content: space-between; }
 
-.product__review--link {
+.product__review-link {
   color: #000;
   text-decoration: none;
   font-style: normal;
